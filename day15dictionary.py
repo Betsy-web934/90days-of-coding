@@ -5,3 +5,5 @@ dictionary ={
 
 print(dictionary["name"])
 print(dictionary["age"])
+
+#.get
