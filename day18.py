@@ -21,3 +21,18 @@ for line in file:
     print(line)
 
 file.close()
+
+# writing a file
+file = open("grade_calculator.py", "w")
+
+file.write("simple calculator to calculate grades\n")
+file.close() 
+
+# Appendding to a file
+file = open("grade_calculator.py", "a")
+file.write("additional information\n")
+file.close()
+
+# using with - not a must to close the file after opening it
+with open("grade_calculator.py", "r") as file:
+    print(file.read())
