@@ -1,0 +1,2 @@
+#Recursion AND BIG O.
+#Big O notation is a way to describe the performance or complexity of an algorithm. Specifically, it describes the worst-case scenario and can be used to describe the execution time required or the space used (e.g., in memory or on disk) by an algorithm.
